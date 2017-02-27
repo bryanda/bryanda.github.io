@@ -1,0 +1,481 @@
+<!-- This HTML document is documented to explain or present HTML5 Elements -->
+
+<!-- We start with stating that this is a HTML 5 document! -->
+<!DOCTYPE html>
+<!-- All of our code will be inside the HTML tag.
+In the HTML tag, we specify the language we are using in this website (e.g. "en" is English)-->
+<html lang="en">
+	<!-- The head contains meta data information, links to important documents for adding fucntionality to your page like javascript and css.-->
+<head>
+	<meta charset="UTF-8">
+	<!-- this title tag displays in the top of the window or the tab for the web page you are using.
+	It is required that you put it inside the head
+	-->
+	<title>Learning HTML</title>
+</head>
+<!-- the body tag encloses all the visible information for the web page -->
+<body>
+	<header>
+		<h1>Learning HTML</h1>
+		<p>Let's learn HTML in three steps!</p>
+		<nav id="main">
+			<a href="#step1">STEP 1</a>
+			<a href="#step2">STEP 2</a>
+			<a href="#step3">STEP 3</a>
+			<a href="#resources">RESOURCES</a>
+		</nav>
+	</header>
+	<main>
+		<h2 id="step1">STEP 1: Get some background...</h2>
+		<nav id="step1-nav">
+			<a href="#step1-1">What is HTML?</a>
+			<a href="#step1-2">Why Learn HTML?</a>
+			<a href="#step1-3">What are the standards?</a>
+			<a href="#step1-4">What are the components of a web page?</a>
+		</nav>
+
+		<h3 id="step1-1">What is HTML?</h3>
+		<p>
+			HTML stands for Hyper Text Markup Language. It is used to structure web pages by using using "tags".
+			HTML is a <strong> computer language </strong>, but it is not cosidered a <strong>programming language</strong>.
+			This can be confusing to understand or to explain, especially if you do have a basic knowledge of the different types of computer languages 
+			(Read more about it <a href="https://www.cs.tut.fi/~jkorpela/prog.html">here</a>*). 
+			Nevertheless, this does not mean HTML does not require any skills. It does. 
+			You need to plan how to structure the information you are presenting. 
+			You also need to know what elements to use and what are the current standards for making your page usable and accessible.
+			There can be a lot more going on an HTML page than one could think! 
+		</p>
+	
+		<h3 id="step1-2">Why learn HTML?</h3>
+		<p>
+			<strong>Learning HTML is the basic and the most essential step for starting with web development and/or web design</strong> (More information on "Web Developer vs. Web Designer" 
+			<a href="https://www.thebalance.com/web-design-vs-web-development-what-is-the-difference-2071185">here</a>* and 
+			<a href="https://www.upwork.com/hiring/development/web-design-vs-web-development/">here</a>*).
+			And... I do not think I need to state the importance of the web and the internet in today's world.
+			So, let me just say technology is relevant today and it will still be relevant tomorrow. 
+			This includes the internet and the web, of course. 
+			Some could argue you could do fine without HTML and still be able to design and develop a web page. 
+			This is somewhat true, for some people and some simplistic purposes, but I do not think it is true for a web designer or a web developer.
+			Read more about it <a href="http://www.mediacollege.com/internet/html/why-learn.html">here</a>*. 
+		</p>
+		<h3 id="step1-3">What are the standards?</h3>
+		<p>
+			There are many ways to make a page with HTML. Over time, there have been approaches to have some standards for the proper use of the elements in HTML.
+			The most current version of HTML is HTML5. HTML5 has been updated to focus on using the proper elements for a specific purpose. 
+			Creating a web page involves much more than simply having a "pretty" presentation of your information. 
+			You need to think about usability and accesability. Yes, users and clients want a page that looks good, but the page also needs to be easy to use for everyone.
+			This, then, remarks the importance of both usability and accesability. 
+			It might be even more time-consuming to create a page including these three components (aesthetics, usability, and accesability), 
+			but it has become a need to do so. 
+			John Rempel talks about the importance of accesability in <a href="https://youtu.be/Dg5DPPAWSsU">this video</a> from AccessibleMediaTube on YouTube. 	
+			The W3C is an international community developing web standards. Go to the <a href="https://www.w3.org/TR/html5/">www.w3.org</a> to check current recommended standards.
+			They even have a "Markup Validation Service," where you vcan alidate your page follows standards (<a href="https://validator.w3.org/">validator.w3.org</a>).
+			This validator is a good tool, but it certainly does not check every single mistake.
+			An easy way to remember how you should build your page is by <strong>separating aesthetics from functionality</strong> and by <strong>using elements that give the intended meaning to what you are presenting</strong>.
+		</p>
+		<h3 id="step1-4">What are the components of a web page?</h3>
+		<p>
+			Like previously mentioned, tags help structure your page.
+			But, you need to think about which tags you should use to give meaning to that specific block of information. <strong>Structure</strong> also means that you need to plan where will you locate the information you are presenting.
+			And, how do you plan a good structure for your web page? Well, you take <strong>functionality</strong> into consideration. What is the main fuction for your page? To publish a portfolio, to write a blog,
+			to teach an online class, to share an article, to promote your business... There are many reasons someone would like to make a web page and there are many ways to give it structure. It all depends how you want the user to navigate through your page,
+			and how you want the user to actually utilize your page. For example, you could have a navigation panel on top of your page or you could decide to add on the left. The important thing is to take time to plan what you will do.
+			Also, do not forget about <strong>content</strong>! The structure of your page will not matter if you do not have content. But, content not only includes text. You could have images and other media (like videos, audio, PDFs, etc..).
+			Content could also help you add a better look and feel to your page, but you must remember that <strong>everything you include in your page should enhance your content without making distractions</strong>!
+			So, adding flashy images, for example, does not always make your page better.
+			Ultimately, most web pages today are <strong>interactive</strong>, so it is a good idea to add ways to make the use of your page an interactive experience. 
+			Making a web page with HTML, though, is most of the times not enough for adding interactivity to your page. Remember that HTML's purpose is adding structure to your pages. 
+			HTML is a markup language, so you will need to learn script languages like Javascript and PHP to add more fuctionality and interactivity to your page 
+			(<a href="https://en.wikipedia.org/wiki/Scripting_language">This</a> is the Wikipedia link to "Scripting language").
+			Moreover, it has already been mentioned that aesthetics is an important aspect to consider when making web pages, but can you make a page look "pretty" using only HTML? You certainly can, to a certain extent. 
+			You actually are currently looking at an example of a page using only HTML. Yes, I know, this looks simple. There are ways to add colors and background images in HTML, as well, but that usually is not recommended.
+			You do not want to mix content with style, so learning CSS (<a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">Cascading Style Sheets</a>) is also important.
+			Styling with CSS and linking it to your page is an usual way of doing this. You will see the relevance of this concept when you get to make a web page with HTML and decide to try different style templates.
+			You certainly do not want to be creating different HTML pages, only different styles. So, you will simply use tags. ids, and classes and you will separately define the style fo them.
+			For now, we only worry about HTML. You need to understand HTML before doing CSS, and especially before you try programming with script languages.
+		</p>
+
+		<h2 id="step2">STEP 2: Learn about the basic HTML components!</h2>
+		<nav id="step2-nav">
+			<a href="#step2-1">What are tags?</a>
+			<a href="#step2-2">How are tags displayed?</a>
+			<a href="#step2-3">What are some tag attributes?</a>
+			<a href="#step2-4">Are all symbols correctly displayed?</a>
+			<a href="#step2-5">What tags can I use for semantic purposes?</a>
+		</nav>
+		<h3  id="step2-1">What are tags?</h3>
+		<p>
+		So, we know HTML is composed of tags. You use tags to define blocks of content. But, what are tags and how do you use them?
+		Tags start and end with a bracket (e.g. &lt;html&gt;).
+		All tags have a beginning and an end, but not all do it the same way. There are:
+		</p>
+		<ul>
+			<li>tags that define beginning and end with a <strong>start tag</strong> and an <strong>end tag</strong> (e.g. &lt;body&gt; &lt;/body&gt;), and </li>
+			<li><strong>self-closing tags</strong> (e. g. &lt;img src="img.jpg"/&gt;)</li>
+		</ul>
+		<p>Some tags have attributes, like:</p>
+		<ul>
+			<li>src</li>
+			<li>href</li>
+			<li>target</li>
+		</ul>
+		<p>Attributes are always specified in the start tag!</p>
+		<h3  id="step2-2">How are tags displayed?</h3>
+		<p>There are two most common types of display for elements: <strong>block</strong> and <strong>inline</strong>. The following shows some examples and descriptions for each:</p>
+		<ul>
+			<li><strong>block</strong>: a new line is inserted before and after the element and it can take witdh and height
+				<ul>
+					<li>Headings
+						<ul>
+							<li> &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;... &lt;h6&gt;</li>
+							<li> They have syntax and semantics.</li>
+							<li> Should not be used solely for their appearance</li>
+							<li> The closing tag should be added! (e.g. &lt;\h1&gt;)</li>
+						</ul>
+					</li>
+					<li>Paragraphs
+						<ul>
+							<li> &lt;p&gt; &lt;/p&gt;</li>
+							<li> Only contain inline elements</li>
+						</ul>
+					</li>
+					<li>Div
+						<ul>
+							<li> &lt;div&gt; &lt;/div&gt;</li>
+							<li> Generic section</li>
+						</ul>
+					</li>
+					<li>Lists
+						<ul>
+							<li> Ordered
+								<ul>
+									<li> &lt;ol&gt; &lt;/ol&gt; (to start and end)</li>
+									<li> &lt;li&gt; &lt;/li&gt; (to list each item)</li>
+									<li> Usually presented in bullets, but not always.</li>
+								</ul>
+							</li>
+							<li> Unordered
+								<ul>
+									<li> &lt;ul&gt; &lt;/ul&gt; (to start and end)</li>
+									<li> &lt;li&gt; &lt;/li&gt; (to list each item)</li>
+									<li> Usually they are numbered (1,2,3...), but you can change what numbering to use (I, II, III...).</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>Line Break
+						<ul>
+							<li> &lt;br/&gt;</li>
+							<li> Adds a visible line break to the web page</li>
+						</ul>
+					</li>
+				</ul>
+				</li>
+			<li><strong>inline</strong>: uses only the needed space for the element and does not take width and height
+				<ul>
+					<li>Images
+					<ul>
+						<li> &lt;img src="img.jpg" alt="logo"/&gt;</li>
+						<li> Needs attributes to display an image:
+							<ul>
+								<li> src:
+									<ul>
+										<li> source link for the image</li>
+										<li> It's required to show an image!</li>
+									</ul>
+								</li>
+								<li> alt:
+									<ul>
+										<li> tells what an image is.</li>
+										<li> Not really required to show an image, but needed to follow HTML5 standards</li>
+										<li> Useful if the picture does not show</li>
+										<li> Helpful for search engine optimization</li>
+										<li> Needed to add more accesability and those who use screen readers</li>
+									</ul>
+								</li>
+								<li>title:
+									<ul>
+										<li>Displays on hover</li>
+									</ul>
+								</li>
+								<li>class:
+									<ul>
+										<li>Commonly used for extra formatting (with CSS)</li>
+										<li>This attribute can be used in all other tags!</li>
+									</ul>	
+								</li>				
+							</ul>
+						</li>
+					</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<p>
+		Remember that tags can have syntax and semantics. In other words, there are different ways to do something,
+		but not all ways are recommendable because you should use the tags that were designed to better describe what you are doing.
+		For example a &lt;div&gt; could be use to enclose some group of information, but it does not really tell what it is (since it is a generic tag). 
+		HTML5 has more tags with semantics that you could use to describe such block of content. 
+		 </p>
+		<h3  id="step2-3">What are some tag attributes?</h3>
+		 <p>
+			 There are special attributes that can apply to any tag, and the most used are:
+		 </p>
+		<table>
+			<tr>
+				<th>TAG</th><th>DESCRIPTION</th>
+				 </tr>
+				 <tr>
+					<td>class</td><td>Applies speciual attributes to groups of elements</td>
+				</tr>
+				<tr>
+					<td>id</td><td>Gives a unique id to one element on the page. 
+				</tr>
+				<tr>
+					<td>style</td><td>Specifies a certain visual style. This onw you should avoid using!</td>
+				</tr>
+				<tr>
+					<td>accesskey</td><td>Shortcut for activating an element</td>
+				</tr>
+				<tr>
+					<td>tabindex</td><td>The order of elements will come into focus using the tab key. You can specify priority!</td>
+				</tr>
+		</table>
+		<h3  id="step2-4">Are all symbols correctly displayed?</h3>
+		<p>
+			As you know, tags are not displayed in the browser. They exist to give structure and define meaning of the content.
+			For that reason, and to avoid confusion, there are special entities to display some special symbols like the following:
+		</p>
+		<ul>
+			<li>the starting bracket ( &lt; )</li>
+			<li>the ending bracket ( &gt; )</li>
+			<li>the copy sysmbol ( &copy; )</li>
+			<li>blank space ( &nbsp; )</li>
+			<li>cent symbol ( &cent; )</li>
+			<li>ampersand ( &amp; ) </li>
+		</ul>
+		<p>
+			You can look at this page's source code to check that they indeed display what they are supposed to display!
+		</p>
+		<h3  id="step2-5">What tags can I use for semantic purposes?</h3>
+		<p>
+			You know you should design you web page before you start typing any HTML tags and that you should use semantics as much as possible.
+			But, what are some tags that could help define content to have a better, easy-to-use, accessible web page? 
+			The following are some semantic tags used in HTML5 that follow standards:</p>
+		<ul>
+			<li><code>&lt;header&gt; &lt;/header&gt;</code>
+				<ul>
+					<li>Not to be confused with the <code>&lt;head&gt;</code> tag</li>
+					<li>This tags encloses the tags and information to be included in the header of your page</li>
+					<li>It does not do anything to the display, but it describes what you have in your page for accessability puposes</li>
+				</ul>
+			</li>
+			<li><code>&lt;nav&gt; &lt;/nav&gt;</code>
+				<ul>
+					<li>Section of the page that links to other pages</li>
+					<li>Your navigation panel is added here</li>
+					<li>You could add this to the header</li>
+				</ul>
+			</li>
+			<li><code>&lt;footer&gt; &lt;/footer&gt;</code>
+				<ul>
+					<li>Information usually found at the bottom</li>
+					<li>It could include copyright information, company address...</li>
+					<li>It is not required and it will not locate your information at the bottom but gives semantic to your code.</li>
+				</ul>
+			</li>
+			<li><code>&lt;figure&gt; &lt;/figure&gt;</code>
+				<ul>
+					<li>It gives more semantics than just adding the img tag</li>
+					<li>This is where you encapsulate an image and the information for that image.</li>
+					<li>To add information you can use the figcaption tag inside the figure tag and after the img tag</li>
+					<li>Useful for accessability since it could tell more information about an image to a person who can't see it</li>
+				</ul>
+			</li>
+		</ul>
+		<p>But, there many more used for different purposes. Some examples are:</p>
+		<ul>
+			<li>Structural Elements
+				<ul>
+					<li><code>&lt;article&gt; &lt;/article&gt;</code></li>
+					<li><code>&lt;aside&gt; &lt;/aside&gt;</code></li>
+					<li><code>&lt;main&gt; &lt;/main&gt;</code></li>
+					<li><code>&lt;menuitem&gt; &lt;/menuitem&gt;</code></li>
+					<li><code>&lt;summary&gt; &lt;/summary&gt;</code></li>
+					<li><code>&lt;section&gt; &lt;/section&gt;</code></li>					
+				</ul>
+			</li>
+			<li>Form Elements				
+				<ul>
+					<li><code>&lt;datalist&gt; &lt;/datalist&gt;</code></li>
+					<li><code>&lt;keygen&gt; &lt;/keygen&gt;</code></li>
+					<li><code>&lt;output&gt; &lt;/output&gt;</code></li>					
+				</ul>
+			</li>
+			<li>Input Types (Attributes)
+				<ul>
+					<li><code>color</code></li>
+					<li><code>date</code></li>
+					<li><code>email</code></li>
+					<li><code>list</code></li>				
+				</ul>
+			</li>
+			<li>Graphic Elements
+				<ul>
+					<li><code>&lt;canvas&gt; &lt;/canvas&gt;</code></li>
+					<li><code>&lt;svg&gt; &lt;/svg&gt;</code></li>					
+				</ul>
+			</li>
+			<li>Media Elements
+				<ul>
+					<li><code>&lt;audio&gt; &lt;/audio&gt;</code></li>
+					<li><code>&lt;embed&gt; &lt;/embed&gt;</code></li>
+					<li><code>&lt;source&gt; &lt;/source&gt;</code></li>
+					<li><code>&lt;track&gt; &lt;/track&gt;</code></li>
+					<li><code>&lt;video&gt; &lt;/video&gt;</code></li>
+				</ul>
+			</li>
+		</ul>
+	<h2 id="step3">STEP 3: Practice, practice, practice!</h2>
+	<nav id="step3-nav">
+			<a href="#step3-1">IMAGES</a>
+			<a href="#step3-2">LINKS</a>
+			<a href="#step3-3">VIDEO AND AUDIO</a>
+			<a href="#step3-4">TABLES</a>
+		</nav>
+	<p>
+		There is no better way to learn HTML, or any computer language, thant to start practicing and creating new things with it!
+		Before you do, read how you can add images, links, video and audio, and tables below.
+	</p>
+	<h3  id="step3-1">IMAGES</h3>
+	<p>
+		Images are an important part of most web pages. Remember you need the img tag to add an image to you page and enclosing all the image information inside the figure tag.
+		In the source attribute, you should include the image location and its file extension (.JPG, .GIF, .PNG). 
+		So, if you have image in the same folder as you web page, you could simple type the name of the image and its extension type (e.g. "my-image.jpg" ).
+		If it is inside a folder, add that location (e.g. "my-img-folder/my-image.jpg"). 
+		You can also add an image from a different source not found in your directory (e.g. "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Face-smile.svg/2000px-Face-smile.svg.png).
+	</p>
+	<p>You can add a favicon to your page. It is located next to the title and it must be included in the head.
+		The following is the code for of adding a logo as your favicon:
+	</p>	
+	<code> &lt; link rel="icon" type="image/png" href="icon/my-logo.png" / &gt;</code>
+	
+	<p>You cannot use jpegs or gifs, only a special icon image or a .png!</p> 
+	<p> 
+		Always add the alt atttribute to all your images. It is important for accessability issues. 
+		If you do not have anything important to mention about the image, you can leave it blank, but do not omit it.
+		Remember that the alt attribute serves for accessability issues.
+	</p>
+
+	<h3  id="step3-2">LINKS</h3>
+	<p>Links are known as "anchor links" and they make up the web. Most all pages have links. 
+		You can add a link to you page with the &lt;a&gt; tag, which stands for "anchor link".
+		The following is the code so you add a link to your page:</p>
+	<code>&lt;a href="http://wwww.utrgv.edu"&gt;The University of Texas Rio Grande Valley&lt;/a&gt;</code>
+	<p><a href="http://www.utrgv.edu">This is the actual link to UTRGV!</a></p>
+	<p>An anchor link requires the href attribute so you can tell the location to link to and content so you can click the link.
+		In the example above, "http://www/utrgv.edu" is the location the new content is located and the text "The University of Texas Rio Grande Valley" is the clickable content.
+		There are different types of links, the most common are listed below:
+	</p>
+	<ul>
+		<li>Absolute
+			<ul>
+				<li>The above example is an absolute reference</li>
+				<li>Someone else's page</li>
+			</ul>
+		</li>
+		<li>Relative
+			<ul>
+				<li>Links to a local file in the same folder, in a different folder, or inside the same document.
+					<ul>
+						<li>Same folder: <code>href="page2.html"</code></li>
+						<li>Other folder: <code>href="examples/page2.html"</code></li>
+						<li>Same document: <code>href="#references"</code></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>Graphical
+			<ul>
+				<li>You can add clickable images that take you to a link!</li>
+				<li>Just add the image in the content part between the beginning and end tags.</li>
+				<li>Do not forget the alt attribute!</li><!-- Usability and Accessability -->
+			</ul>
+		</li>
+	</ul>
+	<p>You can add a target to an anchor link with the target atttribute (e.g. _self, _blank ) </p>
+		
+	<h3  id="step3-3">VIDEO AND AUDIO</h3>
+	<p>
+		There is a video tag and an audio tag, which was not available in older versions of HTML. 
+		As the name says it, the video tags is used to add video to your page.
+		If you add text inside the video tags, the text will appear if a browser does not support this tag.
+		Since this might not be supoorted in all browsers, you should provide links to any needed plugins.
+		The following are attributes to better present your video or audio:
+	</p>
+	<ul>
+		<li><code>height</code> and <code>width</code></li>
+		<li><code>autoplay</code></li>
+		<li><code>controls</code></li>
+		<li><code>loop</code></li>
+	</ul>
+
+	<h3  id="step3-4">TABLES</h3>
+	<p>
+		Tables are very common but they have been missused in the past. They are not supposed to be used for layout.
+		Their purpose is to display tabular data. Here are some steps to make a table:
+	</p>
+	<ol>
+		<li>Plan and design the table you want to display.</li>
+		<li>Start with the <code>&lt;table&gt;</code> tag</li>
+		<li>Then, add a <code>&lt;tr&gt;</code> tag to denote a row.</li>
+		<li>Add the <code>&lt;td&gt;</code> tag to add a cell in the row you are at.</li>
+		<li>Add the content you wish to display in that cell</li>
+		<li>Close with the <code>&lt;/td&gt;</code> tag.</li>
+		<li>Repeat steps 4-6 for all the cells in the row you are at</li>
+		<li>Then, clode <code>&lt;tr&gt;</code> to end that row.
+		<li>Repeat steps 2-8 for each row.</li>
+		<li>Close with the <code>&lt;/table&gt;</code> tag when you finish with all the rows.</li>		
+	</ol>
+
+	<p>You can also add headings in the first row. Simply add the <code>&lt;th&gt;</code> tags instead of the <code>&gt;td&gt;</code> tags.</p>
+	<p>Look in the source code to see how the following table is structured</p>
+
+	<table>
+		<tr>
+			<th>HEADING 1</th><th>HEADING 2</th><th>HEADING 3</th>
+		</tr>
+		<tr>
+			<td>[ROW 1, COL 1]</td><td>[ROW 1, COL 2]</td><td>[ROW 1, COL 3]</td>
+		</tr>
+		<tr>
+			<td>[ROW 2, COL 1]</td><td>[ROW 2, COL 2]</td><td>[ROW 2, COL 3]</td>
+		</tr>
+		<tr>
+			<td>[ROW 3, COL 1]</td><td>[ROW 3, COL 2]</td><td>[ROW 3, COL 3]</td>
+		</tr>
+		<tr>
+			<td>[ROW 4, COL 1]</td><td>[ROW 4, COL 2]</td><td>[ROW 4, COL 3]</td>
+		</tr>
+	</table>
+
+	<p>Columns can also be combined with the <code>colspan</code> tag and rows with <code>rowspan</code> 
+		<a href="https://www.w3schools.com/tags/att_td_colspan.asp" target="_blank">Click here</a> to see how to use the <code>colspan</code> tag and 
+		<a href="https://www.w3schools.com/tags/att_td_rowspan.asp" target="_blank">here</a> to see how to use the <code>rowspan</code> tag. 
+	</p>			
+	</main>
+	<footer>
+		<h2 id="resources">RESOURCES</h2>
+		<p>
+			*All external links provided in this page are resources: Articles I found, videos I saw, and sites I like with relevance to the topic.
+			Below, there are more links to useful sites I recommend visiting in you are really interested in learning HTML:
+		</p>
+		<ul>
+			<li><a href="https://www.w3schools.com/html/html5_intro.asp">HTML5 tutorial from w3Schools</a></li>
+			<li><a href="https://www.coursera.org/learn/html">HTML5 course from Coursera</a></li>
+			<li><a href="https://validator.w3.org/">W3C Markup Validation Service</a></li>
+			<li><a href="http://html5doctor.com/avoiding-common-html5-mistakes/">Avoiding common HTML5 mistakes</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
