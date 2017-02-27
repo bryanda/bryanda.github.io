@@ -6,4 +6,4 @@ My name is Bryanda and I am a Computer Science student. That means, I am trying 
 
 This site connects to my github account, which has few projects I have worked on. So...
 
-THIS SITE IS UNDER CONSTRUCTION!
+#### THIS SITE IS UNDER CONSTRUCTION!
