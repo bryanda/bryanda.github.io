@@ -1,7 +1,7 @@
 # ABOUT ME
 + Name: Bryanda Garcia
-+ Website: [bryandagarcia.com](https://bryandagarcia.com)
-+ LinkedIn: [/bryanda](https://linkedin/in/bryanda)
++ Website: [bryandagarcia.com](http://bryandagarcia.com)
++ LinkedIn: [/bryanda](https://linkedin.com/in/bryanda)
 
 ## PUBLISHED REPOSITORIES
 + [HTML](http://bryanda.me/html/)
