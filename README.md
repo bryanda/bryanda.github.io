@@ -1,7 +1,9 @@
-## Hey there!
+## Bryanda Garcia
 
-My name is Bryanda and I am a Computer Science student.
+UTRGV Computer Science undergraduate. 
+Visit my [site](http://bryandagarcia.com) to know a little more about me.
 
-### THIS SITE IS UNDER CONSTRUCTION!
+### PUBLISHED REPOSITORIES
 
 [HTML](http://bryanda.me/html/)
+[ML PROJECT IDEAS](https://github.com/bryanda/ML-Projects-with-Music-Data-Set)
