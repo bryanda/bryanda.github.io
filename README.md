@@ -1,9 +1,9 @@
-## Bryanda Garcia
+# Bryanda Garcia
 
 UTRGV Computer Science undergraduate. 
-Visit (http://bryandagarcia.com) to know a little more about me.
+Visit [bryandagarcia.com](http://bryandagarcia.com) to know a little more about me.
 
-### PUBLISHED REPOSITORIES
+## PUBLISHED REPOSITORIES
 
-* [HTML](http://bryanda.me/html/)
-* [ML PROJECT IDEAS](http://bryanda.me/ML-Projects-with-Music-Data-Set/)
+### [HTML](http://bryanda.me/html/)
+### [ML PROJECT IDEAS](http://bryanda.me/ML-Projects-with-Music-Data-Set/)
